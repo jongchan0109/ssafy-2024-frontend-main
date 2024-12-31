@@ -63,7 +63,7 @@ function scrollToBottom() {
 function getAssistantResponse(userMessage) {
   return new Promise((resolve) => {
     setTimeout(() => {
-      resolve('나는 가짜 ChatGPT야.: ' + userMessage);
+      resolve('나는 가짜 ChatGPT야. you said: ' + userMessage);
     }, 1500);
   });
 }
